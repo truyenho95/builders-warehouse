@@ -1,0 +1,21 @@
+{
+  "name": "builderz-construction",
+  "version": "1.0.0",
+  "description": "Builderz Website",
+  "main": "index.js",
+  "scripts": {
+    "watch:scss": "node-sass main.scss style.css -w",
+    "prestart": "live-server --port=4000",
+    "start": "npm run watch:scss"
+  },
+  "author": "Justin Ho",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefix": "^1.0.1",
+    "concat": "^1.0.3",
+    "live-server": "^1.2.0",
+    "node-sass": "^4.9.2",
+    "npm-run-all": "^4.1.3",
+    "postcss-cli": "^6.0.0"
+  }
+}
